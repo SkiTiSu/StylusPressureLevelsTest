@@ -24,7 +24,7 @@
             <TextBlock x:Name="textBlockCurrentPressure" Text="0" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="24" Grid.Row="1" Grid.Column="1"/>
         </Grid>
         <TextBlock TextWrapping="Wrap" Margin="0,0,10.4,9.8" VerticalAlignment="Bottom" HorizontalAlignment="Right">
-            <Hyperlink NavigateUri="https://github.com/SkiTiSu/StylusPressureLevelsTest">项目主页 Project Website</Hyperlink>
+            <Hyperlink Click="Hyperlink_Click">项目主页 Project Website</Hyperlink>
         </TextBlock>
 
     </Grid>

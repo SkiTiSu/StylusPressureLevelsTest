@@ -41,5 +41,10 @@ namespace StylusPressureLevelsTest
                 lastPreesure = p.PressureFactor;
             }
         }
+
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/SkiTiSu/StylusPressureLevelsTest");
+        }
     }
 }
